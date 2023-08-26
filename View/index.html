@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my store</title>
+
+<style>
+    center {
+        margin-top: 1%;
+    }
+    body {
+        background: url("http://hdqwalls.com/wallpapers/cute-anime-girl-pink-art-4k-47.jpg");
+        background-size: cover;
+    }
+</style>
+</head>
+<body>
+<center>
+    <h1 style="color: #06284c">My Store</h1>
+    <button onclick="showFormAdd()">Add Product</button>
+    <div id="form-add"></div>
+    <div id="form-edit"></div>
+    <br><br>
+    <table border="1">
+        <tr>
+            <th style="color: gold; background-color: black">Id</th>
+            <th style="color: gold; background-color: black">Name</th>
+            <th style="color: gold; background-color: black">Price</th>
+            <th style="color: gold; background-color: black">Figure</th>
+            <th style="color: gold; background-color: black" colspan="2">Action</th>
+        </tr>
+        <tbody id="list-product">
+
+        </tbody>
+    </table>
+   <a href="https://www.facebook.com/profile.php?id=100085042130681&sk=about">link fb</a>
+</center>
+
+
+
+<script src="../Entity/Product.js"></script>
+<script src="../Management/Store.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
